@@ -1,0 +1,16 @@
+{
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "prettier.trailingComma": "es5",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.foldingStrategy": "indentation",
+    "editor.tabCompletion": "on",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "search.showLineNumbers": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "breadcrumbs.enabled": true,
+}
