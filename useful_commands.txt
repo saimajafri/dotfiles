@@ -1,0 +1,41 @@
+// command line
+// terminal will read the latest plist (then quit & restart terminal)
+`defaults read ~/Library/Preferences/com.apple.Terminal.plist`
+
+// zsh theme file
+# %{$FX[bold]%}%
+# %{$FG[198]%}$ZSH_THEME_SJAFRI_SUFFIX
+# ZSH_THEME_SJAFRI_SUFFIX='♋︎'
+
+
+# shell script file
+# these are not longer being used in favor of quicker aliases below in the file
+# tmux shortcuts
+# tmux-quad()
+# {
+#     tmux split
+#     tmux select-pane -t 0
+#     tmux split-window -h
+#     tmux select-pane -t 2
+#     tmux split-window -h
+# }
+
+# tmux-tee()
+# {
+#     tmux split-window -v
+#     tmux split-window -h
+# }
+
+# shell script file
+## this is no longer being used in favor of using oh-my-zsh themes which comes with git support like this
+## This pulls down the name of the current git branch
+##   function parse_git_branch {
+##     ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+##         echo "("${ref#refs/heads/}")"
+##   }
+
+# shell script file
+# Info on how to modify bash prompt: http://tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
+# this is no longer being used in favor of using oh-my-zsh themes which comes with git support like this
+## This setups my alias to display username, pwd, git branch
+## export PS1="\u:\[\033[36m\]\w\[\033[m\]:\[\033[33;1m\]\$(parse_git_branch)\033[m\]\$"
